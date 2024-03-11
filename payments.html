@@ -1,0 +1,179 @@
+
+<!DOCTYPE html>
+<html>
+  <link href="css/style1.css" rel="stylesheet">
+  
+  <HTML style="background-color:seashell">
+
+<head>
+<title>Payment.html</title>
+
+</head>
+
+
+<div>
+	<ul>
+	  <li><a href="index.html"target="blank">HOME PAGE</a></li>
+	
+	  <li><a href="faculty.html"target="blank">FACULTY DETAILS</a></li>
+	
+	<li><a href="departments.html"target="blank">VARIOUS DEPARTMENTS</a></li>
+	 
+	   <li><a href="timetable.html"target="blank">STUDENT TIMETABLES</a></li>
+		   
+			   <li><a href="registration.html"target="blank">REGISTRATION</a></li>
+			
+				 <li><a href="paymentS.html." target="_parent">PAYMENT  OF DUES</a></li>
+			   
+			   </u>
+			   
+			  </div>
+
+<body>
+
+<main>
+	<br style="position: relative; right: 5px;">Invoicing and Payment of Sponsor Project
+		The Office of Contracts and Grants (OCG) manages the billing and collections activities for all sponsored projects.
+		 Payments are sent to the Treasurer and posted to the award cost center by the General Accounting department.
+		  The sponsor award terms and conditions dictate the billing and payment method for each project.
+		 The Research Financial Services team within kstu uses the award information to setup the billing 
+		 structure for the award in the PeopleSoft financial management System.
+	
+</br>
+
+	<section class="content">
+		<h2>Make a Payment</h2>
+
+<p><input type="image" name="imageinput" src="css/payment .jpg" width="650" height="530" style="position:absolute; right:0;"></p></p>
+
+		<form action="submit_payment.php" method="post">
+			<label for="amount">Amount $:</label><br>
+			<input type="number" id="amount" name="amount" min="0" step="0.01" required><br>
+			<label for="card_number">Card Number:</label><br>
+			<input type="text" id="card_number" name="card_number" required><br>
+			<label for="expiry_date">Due Date:</label><br>
+			<input type="text" id="expiry_date" name="expiry_date" placeholder="MM/YY" required><br>
+			<label for="cvv">Payment code:</label><br>
+			<input type="text" id="cvv" name="cvv" required><br><br>
+			<input type="submit" value="confirm Payment">
+
+		</form>
+		<p><input type="image" name="imageinput" src="css/payment .jpg" width="650" height="530" style="position:absolute; right:0;"></p></p>
+		
+	</section>
+</main>
+<footer>
+	<p>&copy; 2024 Faculty Website. All rights reserved.</p>
+</footer>
+
+
+	<p style="margin: 1000" >
+
+		<br style="margin: 10" style="color: green;"> MY COURSE TIME FEES</br>          
+	</p>
+	          
+	<div class="row">
+	<div class="col-sm-10">
+		<div class="pull-right"> </div>
+
+
+      <p>
+		<button class="btn btn-warning clickdownload"><i class="fa fa-download"></i> Download Receipt</button>
+	</p>
+      
+
+		<p>
+		
+		<div class="table table-responsive" id="printme">
+
+			<table class="table table-striped" border="5" width="400" cellpadding="5" cellspacing="5">
+			    <thead style="background-color: royalblue; color: rgb(211, 15, 15); font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;">
+					<th>DATE</th>
+					<th>TYPE </th>
+					<th>DESCRIPTION</th>
+					<th>REF NO.</th>
+					<th>DEBIT</th>
+					<th>CREDIT</th>
+					<th>BALANCE</th>
+				</thead>
+				<tbody>
+									 
+			               <tr>
+								<td cellspacing="5" cellpadding="5"  style="color: orange;">
+									10, Jan 2023
+								 </td> 
+								 <td>Receipt</td>
+								<td>Fee payment of GHS 2,300.00</td>
+								<td>ZBG000000031946</td>
+								<td>0.00</td>
+								<td>2,300.00</td>
+								<td>-2,300.00</td>
+							</tr>
+													    
+										      							<tr>
+								<td cellspacing="5" cellpadding="5"  style="color: orange;">
+									01, Jan 2023
+								 </td cellspacing="5" cellpadding="5"  style="color: orange;"> 
+								 <td>Bill</td>
+								<td>2022/2023 Academic Year bill</td>
+								<td>KsTU34158</td>
+								<td>4,226.00</td>
+								<td>0.00</td>
+								<td>1,926.00</td>
+							</tr>
+													    
+						<tr>
+								<td cellspacing="5" cellpadding="5"  style="color: orange;">
+									24, May 2023
+								 </td> 
+								 <td>Receipt</td>
+								<td>Payment of GHS 2,000.00 on bill </td>
+								<td>ZBG000000049031</td>
+								<td>0.00</td>
+								<td>2,000.00</td>
+								<td>-74.00</td>
+							</tr>
+													    
+						<tr>
+								<td cellspacing="5" cellpadding="5"  style="color: orange;">
+									05, Jan 2024
+								 </td> 
+								 <td>Bill</td>
+								<td>2023/2024 Academic Year bill</td>
+								<td>INV41722</td>
+								<td>4,257.00</td>
+								<td>0.00</td>
+								<td>4,183.00</td>
+							</tr>
+													    
+						<tr>
+								<td cellspacing="5" cellpadding="5"  style="color: orange;">
+									18, Jan 2024
+								 </td> 
+								 <td>Receipt</td>
+								<td>Payment of fees</td>
+								<td>GTB000000006327</td>
+								<td>0.00</td>
+								<td>5000.00</td>
+								<td>-817.00</td>
+							</tr>
+													    
+	                    </tbody>
+			</table>
+		</p>
+	
+                    </div>
+                    <br class="bottom-right box effect8 rounded"><a href="http://helpdesk.kstu.edu.gh/support/142fb5960569051412" target="_blank"><span>&nbsp;Chat now!</span><img src="https://portal.kstu.edu.gh/students/public/chat_css/chat_image.jpeg" width="50" height="40" ></a></br>
+                </div>
+            
+        </div>
+      
+		<footer>  
+			<p style="background-color: antiquewhite; background-size: 5px; color: blue; font-size: large; font-family: 'font: 1em sans-serif;', Times, serif;" >&copy; 2024 Faculty Website. All rights reserved (CREATED BY: PRINCE OWUSU).</p>
+		   </footer> 
+
+    </body>
+
+
+</html>
+

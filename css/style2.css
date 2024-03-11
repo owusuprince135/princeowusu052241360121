@@ -1,0 +1,47 @@
+
+
+ul {
+    margin:0px;
+    padding:0.5px;
+    list-style:none;
+    
+    
+}
+
+ li {
+    float: left;
+    width:200px;
+    height:80px;
+    opacity:.9;
+    background-color:orangered;
+    line-height:34px;
+    text-align:center;
+    font-size:28px;
+    margin-right:3px;
+     margin-top: 3;
+     
+
+}
+
+ul li a{
+    text-decoration:underline;
+    color:blue;
+    display:block;
+    text-decoration-style: dashed;
+    
+}
+
+
+ul li a:hover {
+    background-color:green;
+}
+
+ul li ul li {
+display: none;
+}
+
+
+
+ul li ul a:hover li {
+    display:block;
+}
